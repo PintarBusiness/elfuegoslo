@@ -79,6 +79,7 @@
     transition: background 0.2s;
   }
   .nav-cta:hover { background: var(--mid-red); }
+  @media (max-width: 900px) { .nav-cta { display: none; } }
 
   /* HAMBURGER */
   .hamburger {
@@ -1063,6 +1064,7 @@
     <li><a href="#catering">Catering</a></li>
     <li><a href="#lokacija">Lokacija</a></li>
   </ul>
+  <a href="tel:041593776" class="nav-cta">Rezerviraj</a>
   <button class="hamburger" id="hamburger" aria-label="Meni">
     <span></span><span></span><span></span>
   </button>
